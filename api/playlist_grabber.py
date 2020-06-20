@@ -27,7 +27,7 @@ def spotify_user_logged_in(f):
     return wrap
 
 
-@app.route('/')
+@app.route('/helloworld')
 def show_playlist(path):
     return jsonify({'Hello': 'World :-)'})
 
